@@ -8,6 +8,8 @@
     <%= f.input :body %>
   </div>
 
+  <%= f.input :photos, as: :file, input_html: { multiple: true } %>
+
   <div class="form-actions">
     <%= f.button :submit %>
   </div>
